@@ -1,0 +1,40 @@
+.partners{
+  margin-top: 200px;
+  padding: 0 150px;
+}
+
+.partners h1{
+  text-align: center;
+  color: var(--text-blue);
+  font-size: 40px;
+}
+
+.partners h2{
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  color: var(--text-gray);
+  font-weight: normal;
+}
+
+.partners-img-wrapper{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 798px) {
+  .partners h1{
+    font-size: 35px;
+  }
+
+  .partners{
+    padding: 0 10px;
+  }
+
+  .partners-img-wrapper img{
+    max-width: 100%;
+  }
+}

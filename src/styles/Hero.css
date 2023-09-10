@@ -1,0 +1,44 @@
+.hero-bg{
+  height: 100vh;
+  background-image: url('../assets/images/hero.jpg');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.hero-bg h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+.hero-bg h2{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+  font-weight: normal;
+}
+
+.hero-bg button{
+  margin-top: 30px;
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: 0;
+  background-color: var(--button-blue);
+  color: white;
+  font-size: 16px;
+  transition: color 0.3s;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 798px) {
+  .hero-bg h1{
+    font-size: 35px;
+  }
+
+  .hero-bg h2{
+    font-size: 18px;
+  }
+}

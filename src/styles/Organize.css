@@ -1,0 +1,35 @@
+.organize {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 0 150px;
+}
+
+.organize-title {
+  font-size: 40px;
+  color: var(--text-blue);
+}
+
+.organize-subtitle {
+  margin-top: 20px;
+  font-size: 18px;
+  color: var(--text-gray);
+  font-weight: normal;
+}
+
+.organize-img {
+  max-width: 85%;
+}
+
+@media screen and (max-width: 798px) {
+  .organize {
+    padding: 0 10px;
+    flex-direction: column;
+  }
+
+  .organize-title {
+    font-size: 35px;
+  }
+}

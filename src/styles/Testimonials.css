@@ -1,0 +1,80 @@
+.testimonials{
+  margin-top: 200px;
+}
+
+.testimonials-title{
+  text-align: center;
+  color: var(--text-blue);
+  font-size: 40px;
+}
+
+.testimonials-img-ibm-logo-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-img-ibm-logo{
+  margin: 50px 0;
+}
+
+.testimonials-subtitle{
+  text-align: center;
+  color: var(--text-gray);
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.testimonials-avatar-wrapper{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.testimonials-avatar-img{
+  width: 100px;
+  border-radius: 100px;
+}
+
+.testimonials-child-subtitle{
+  color: var(--text-blue);
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.testimonials-child-paragraph{
+  color: var(--text-blue);
+}
+
+.testimonials-button-wrapper{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials-button{
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: 0;
+  background-color: var(--button-blue);
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: color 0.3s;
+  border: 1px solid;
+}
+
+.testimonials-button:hover{
+  color: var(--button-blue);
+  background-color: white;
+  border: 1px solid var(--button-blue);
+}
+
+@media screen and (max-width: 798px) {
+  .testimonials-title{
+    font-size: 35px;
+  }
+}
