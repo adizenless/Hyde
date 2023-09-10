@@ -1,24 +1,80 @@
 # Hyde-App
 
-The Hyde-App landing page serves as the gateway to the application, providing users with essential information and a glimpse of what the app offers. Here's what you can expect to find on our landing page:
+![Hyde-app Image](https://res.cloudinary.com/dtrp5gl4m/image/upload/v1694362519/Capture1_bum3de.png)
 
-Introduction: The landing page starts with a brief introduction to Hyde-App, highlighting its key features and benefits. It aims to capture the user's interest and explain why Hyde-App is a valuable tool for note-taking.
+## Доступ к главной странице
 
-Attractive Visuals: We believe in the power of visual communication. The landing page includes eye-catching images and graphics that showcase the app's user interface and functionality. Screenshots and demo videos may be included to provide a visual preview.
+Вы можете получить доступ к главной странице Hyde-App, посетив [https://hyde-app.vercel.app/](https://hyde-app.vercel.app/)
 
-Call-to-Action (CTA): To encourage users to get started, we prominently display a CTA button that directs them to sign up or log in. This button is strategically placed and invites users to take action.
+Этот репозиторий содержит исходный код дизайн страницы, созданной с использованием библиотеки React который создан через Vite. Дизайн страницы представляет собой информационный веб-сайт, который может быть использован для продвижения продукта, услуги или другой информации.
 
-Navigation Menu: A navigation menu is provided at the top of the landing page, allowing users to explore other sections of the website, such as the features page, pricing information, and a blog or news section.
+## Особенности
 
-User Testimonials: Social proof is essential. We feature testimonials from satisfied users who share their positive experiences with Hyde-App. Real-world testimonials build trust and credibility.
+* **Простая и Современная**: Лендинг страница разработана с использованием современных веб-технологий и 
+имеет минималистичный и современный дизайн.
+* **Расширяемость**: Вы можете легко настраивать и расширять эту лендинг страницу, 
+добавляя новые секции, изображения и текстовое содержание.
+* **Адаптивный Дизайн**: Лендинг страница адаптируется под различные размеры экранов, обеспечивая 
+удобное отображение на мобильных устройствах и настольных компьютерах.
 
-Download Links: For users who want to access Hyde-App on various platforms, we provide download links for different operating systems (e.g., iOS, Android, Windows, macOS).
+## Установка и Запуск
 
-Contact Information: To foster communication, we include contact information, such as an email address or a contact form. Users can reach out with questions, feedback, or support inquiries.
+Чтобы установить и запустить этот проект, выполните следующие шаги:
 
-Footer: The footer section typically includes links to privacy policy, terms of service, and copyright information. It also displays social media icons for users to connect with Hyde-App on social platforms.
+1. Склонируйте репозиторий на свой локальный компьютер:
+   ```bash
+    git clone https://github.com/adizenless/Hyde-App.git
+   ```
 
-## Accessing the Landing Page
-You can access the Hyde-App landing page by visiting https://www.hydeapp.com.
+2. Перейдите в директорию проекта:
+   ```bash
+    cd Hyde-App
+   ```
 
-Our landing page is designed to provide an engaging and informative experience for visitors, making it easy for them to learn about the app and take the next steps toward using Hyde-App for their note-taking needs.
+3. Установите зависимости:
+   ```bash
+    npm install
+   ```
+
+4. Запустите страницу в режиме разработки:
+   ```bash
+    npm run dev
+   ```
+
+Лендинг страница будет доступна по адресу [**http://localhost:5173**](http://localhost:5173) и автоматически обновится при внесении изменений в исходный код.
+
+## Настройка
+
+Чтобы настроить эту лендинг страницу под свои нужды, вы можете:
+
+* Изменить содержание в файлах компонентов в папке **src/components** для обновления текста и изображений.
+* Добавить новые компоненты и секции, чтобы расширить функциональность лендинг страницы.
+* Изменить стили в файлах CSS (например, **src/styles/Header.css**) для настройки внешнего вида.
+
+## Вклад
+Мы приветствуем вклад от сообщества! Если вы хотите внести вклад в развитие этой лендинг страницы, пожалуйста, следуйте этим шагам:
+
+1. Форкните этот репозиторий.
+2. Создайте новую ветку для своего вклада:
+   ```bash
+    git checkout -b feature/your-feature-name
+   ```
+3. Внесите изменения и закоммитьте их с описательными сообщениями коммитов.
+4. Отправьте свои изменения в свой форк:
+   ```bash
+    git push origin feature/your-feature-name
+   ```
+5. Создайте запрос на слияние **(Pull Request)** в этот репозиторий, описав свои изменения и причину их внесения.
+
+## Лицензия
+
+Этот проект распространяется под лицензией MIT. Подробности см. в файле LICENSE.
+
+## Контакты
+
+Если у вас есть вопросы или предложения, пожалуйста, свяжитесь с нами:
+
+* Email: adizenless@gmail.com
+
+
+
