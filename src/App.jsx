@@ -7,7 +7,7 @@ import Organize from "./components/Organize";
 import Partners from "./components/Partners";
 import Pricing from "./components/Pricing";
 import Prototyping from "./components/Prototyping";
-import Testimonials from "./components/testimonials";
+import Testimonials from "./components/Testimonials";
 
 function App() {
   return (
